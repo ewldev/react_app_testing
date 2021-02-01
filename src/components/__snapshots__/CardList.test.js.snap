@@ -3,10 +3,10 @@
 exports[`expect to render CardList component 1`] = `
 <div>
   <Card
-    email="Sincere@april.biz"
+    email="johnt@test.com"
     id={1}
     key="0"
-    name="Leanne Graham"
+    name="John Test"
   />
 </div>
 `;
