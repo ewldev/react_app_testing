@@ -1,8 +1,5 @@
-# robofriends-pwa
-adding PWA capabilities to a react app
+# React testing on robofriends app
 
-To run the project:
+enzyme - shallow
 
-1. Clone this repo
-2. Run `npm install`
-3. Run `npm start`
+jest - snapshot
