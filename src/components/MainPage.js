@@ -16,8 +16,8 @@ class MainPage extends Component {
         this.props.onRequestRobots();
       }
  
-  filterRobots = robots => {
-    return robots.filter(robot => {
+  filterRobots = () => {
+    return this.props.robots.filter(robot => {
       return robot.name.toLowerCase().includes(this.props.searchField.toLowerCase());
     })
   }  
